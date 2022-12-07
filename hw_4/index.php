@@ -143,7 +143,7 @@ $jobs = [
           			<i class="fa fa-calendar fa-fw w3-margin-right"></i>
           			<?=$jobs[$i]['startDate']; ?> - 
                     <?php if ($jobs[$i]['endDate'] == 'Настоящее время'): ?>
-                    <span class="w3-tag w3-teal w3-round"><?=$jobs[$i]['endDate']; ?></span></h6>
+                    <span class="w3-tag w3-teal w3-round"><?=$jobs[$i]['endDate']; ?></span>
                     <?php else: ?>
                     <?=$jobs[$i]['endDate']; ?>
                     <?php endif; ?>
